@@ -1,0 +1,176 @@
+.add-role-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .add-role-alert {
+    font-size: 1.2rem;
+    color: #555;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contenedor principal */
+  .add-role-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+  }
+  
+  /* Título */
+  .title {
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Formulario */
+  .add-role-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-role-form label {
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .add-role-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  /* Botón Agregar Rol */
+  .btn-agregar {
+    background-color: #28a745; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-agregar:hover {
+    background-color: #218838;
+  }
+  
+  /* Botón Regresar */
+  .btn-regresar {
+    margin-top: 15px;
+    background-color: #6c757d; /* Gris */
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn-regresar:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Alertas de éxito y error */
+  .alert {
+    margin: 10px auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .alert.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .alert.error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .modal-content h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .modal-content p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .btn-cerrar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-cerrar:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+  /* ROLES ACTUALES */
+
+  .current-roles {
+    margin-top: 20px;
+  }
+  
+  .roles-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .role-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
